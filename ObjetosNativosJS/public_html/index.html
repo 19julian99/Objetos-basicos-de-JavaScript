@@ -1,0 +1,238 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <h1>Objetos nativos de java script(Julian Peñuela ID:607452)</h1>
+    <p>A continuacion tenemos los archivos de java scrip de fecha </p>
+    <script>
+        document.write("objetos nativos de fecha: ");
+
+        var f = new Date();
+        var n = f.getUTCSeconds();
+        document.write(f.getDate() + "/" + (f.getMonth() + 1) + "/" + f.getFullYear() + "/horas: " + f.getHours() + "/milisegundos: " + f.getMilliseconds() + "/minutos: " + f.getMinutes() + "/segundos: " + f.getSeconds());
+        document.write( );
+    </script>
+
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion tenemos los archivos de java scrip de fecha pero con UTC </p>
+    <script>
+        document.write("objetos nativos de fecha con UTC: ");
+
+        var f = new Date();
+        var n = f.getUTCSeconds();
+        document.write(f.getDate() + "/" + f.getUTCMonth() + "/" + f.getFullYear() + "/horas:" + f.getUTCHours() + "/minutos: " + f.getUTCMinutes());
+
+    </script>
+
+
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion tenemos los archivos de java scrip de fecha pero con UTC </p>
+    <script>
+        document.write("pasar date a string con f.toLocaleString() : ");
+
+        var f = new Date();
+        var n = f.toLocaleString();
+        document.write(n);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion log de un numero</p>
+    <script>
+       
+
+        var e = Math.log10(2);
+        ;
+        document.write("el log de 2=" + e);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion log en base 2 de un numero</p>
+    <script>
+        
+
+        var e = Math.log2(2);
+        document.write("el log en base dos de 2=" + e);
+
+    </script>
+
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion imprimimos PI con la libreria con objeto MATH.</p>
+    <script>
+      
+
+        var e = Math.PI;
+        document.write("Pi =" + e);
+
+    </script>
+
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion raiz de un numero con objeto MATH.</p>
+    <script>
+       
+
+        var e = Math.SQRT2;
+        document.write("La raiz de dos es =" + e);
+
+    </script>
+
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion valor absoluto de un numero con objeto MATH.</p>
+    <script>
+      
+
+        var e = Math.abs(-10);
+        document.write("valñor absoluto de -10  =" + e);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion seno de un numero con objeto MATH.</p>
+    <script>
+       
+
+        var e = Math.sin(90);
+        document.write("seno de 90  =" + e);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion cosseno de un numero con objeto MATH.</p>
+    <script>
+     
+
+        var e = Math.cos(90);
+        document.write("cosseno de 90  =" + e);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion tangente de un numero con objeto MATH.</p>
+    <script>
+        
+
+        var e = Math.tan(90);
+        document.write("tangente de 90  =" + e);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion exponencial de un numero con objeto MATH.</p>
+    <script>
+       
+
+        var e = Math.exp(2);
+        document.write("exponencial de 2   =" + e);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion minimo de dos numeros.</p>
+    <script>
+       
+
+        var x = 10, y = -20;
+        var z = Math.min(x, y);
+        document.write("minimo de10 y -20   =" + z);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion maximo de dos numeros.</p>
+    <script>
+        
+
+        var a = 10; 
+        var b = -20;
+        var z = Math.max(a, b);
+        document.write("maximo de10 y -20   =" + z);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion valor maximo de un numero en javascript.</p>
+    <script>
+       
+
+        var x = 100;
+
+        
+        document.write("maximo en java script=" + x.MAX_VALUE);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion valor minimo de un numero en javascript.</p>
+    <script>
+       
+
+        var x = 100;
+
+        
+        document.write("minimo en java script=" + x.MIN_VALUE);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion tamaño de un string usando length.</p>
+    <script>
+       
+
+        var x = "julian alberto peñuela";
+
+        
+        document.write("tamaño de (julian alberto peñuela)=" + x.length);
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion  string en negrita.</p>
+    <script>
+       
+
+        var x = "julian alberto peñuela";
+
+        
+        document.write("negrita =" + x.bold("julian alberto peñuela"));
+
+    </script>
+     <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <p>A continuacion  string en parpadea.</p>
+    <script>
+       
+
+        var x = "julian alberto peñuela";
+
+        
+        document.write("parapdea =" + x.blink("julian alberto peñuela"));
+
+    </script>
+    <br></br>
+    <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p> 
+    <p>A continuacion  concadenar string (julian,alberto,peñuela).</p>
+    <script>
+       
+
+       var totn_string = 'julian ';
+
+     document.write(totn_string.concat('peñuela ','buitrago'));
+
+     document.write(totn_string);
+
+        
+
+    </script>
+
+
+</body>
+</html>
